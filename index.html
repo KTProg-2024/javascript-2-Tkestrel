@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Function Call</title>
+		<style>
+			#date {
+				text-align: center;
+			}
+
+      button{
+        font-weight: bold;
+      }
+
+      .dark{
+        background-color: black;
+        color: white;
+      }
+
+      .light{
+        background-color: white;
+        color: black;
+      }
+
+      .update{
+        background-color: lightgray;
+        color: darkgray;
+        width: 150px;
+        height: 50px;
+      }
+		</style>
+    </head>
+
+	<body>
+		<p id="date">What is today's date?</p>
+		
+		<script src="date.js"></script>
+
+		<script>getDate()</script>
+
+    <button type="button" onclick="dark()" class="dark">Dark Mode</button>
+    <button type="button" onclick="light()" class="light">Light Mode</button>
+    <button type="button" onclick="update()" class="update">Update Time</button>
+
+	</body>
+</html>
+
