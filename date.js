@@ -7,13 +7,13 @@ function getDate()
 function light()
 {
   document.getElementById("date").style.color="black";
-  document.getElementById("date").style.backgroundcolor="white";
+  document.getElementById("all").style.backgroundColor="white";
 }
 
 function dark()
 {
 	document.getElementById("date").style.color="white";
-  document.getElementById("date").style.backgroundcolor="black";
+  document.getElementById("all").style.backgroundColor="black";
 }
 
 function update()
